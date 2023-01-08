@@ -34,6 +34,8 @@ section#login{
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.596);
+    transition: width .2s, height .2s;
+    transition-timing-function: ease;
 
 }
 
@@ -50,4 +52,16 @@ section#login > div#formulario{
     display: block;
     padding: 10px;
 
+}
+
+
+div#formulario > h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+div#formulario > p{
+    font-size: 0.8em;
+    
 }
