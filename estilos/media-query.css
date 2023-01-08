@@ -23,6 +23,28 @@
         width: 65%;
 
     }
+
+    div.campo >span{
+        color: white;
+        font-size: 2em;
+        width: 40px;
+        padding: 5px;
+    
+    }
+    
+    
+    div.campo > input{
+        background-color: rgb(182, 208, 247);
+        font-size: 1em;
+        width: calc(100% - 12%);
+        height: 100%;
+        transform: translateY(-15px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+    
+    
+    }
 }
 
 
@@ -58,8 +80,31 @@
 
     div#formulario > h1{
         font-size: 2em;
-        
+
         
     }
+
+    div.campo >span{
+        color: white;
+        font-size: 2em;
+        width: 40px;
+        padding: 5px;
+    
+    }
+    
+    
+    div.campo > input{
+        background-color: rgb(182, 208, 247);
+        font-size: 1em;
+        width: calc(100% - 10%);
+        height: 100%;
+        transform: translateY(-15px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+    
+    
+    }
+    
     
 }
